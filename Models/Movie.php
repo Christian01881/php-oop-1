@@ -1,5 +1,7 @@
 <?php 
-// Creo una classe
+/**
+ * Undocumented class
+ */
 class Movie
 {
     public string $title;
@@ -8,6 +10,7 @@ class Movie
     public float $vote;
     public string $image;
     public $genre;
+
 
     public function __construct($title, $original_title, $nationality, $vote, $image, $genre)
     {
