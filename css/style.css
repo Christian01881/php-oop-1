@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    height: 90px;
+    color: white;
+}
+
+main{
+    height: calc(100% - 180px);
+    overflow-y: auto;
+}
+
+footer{
+    background-color: black;
+    height: 90px;
+    color: white;
+}
+
+.CPM-image{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+.CPM-card-w{
+    width: calc(100% / 4);
+}

@@ -1,7 +1,5 @@
 <?php 
-/**
- * Undocumented class
- */
+
 class Movie
 {
     public string $title;
@@ -20,6 +18,10 @@ class Movie
         $this->vote = $vote;
         $this->image = $image;
         $this->genre = $genre;
+    }
+
+    public function getImage() {
+        return "<img class='card-img-top CPM-image' src='$this->image' alt='$this->title'>";
     }
 
 }
